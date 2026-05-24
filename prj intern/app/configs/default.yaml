@@ -1,0 +1,58 @@
+preprocess:
+  max_image_side: 1800
+  denoise: true
+  denoise_strength: 7
+  adaptive_threshold: true
+  adaptive_block_size: 31
+  adaptive_c: 7
+  morphology: true
+  morphology_kernel: 2
+  edge_enhance: true
+  invert_if_dark_foreground: true
+
+classical:
+  enabled: true
+  use_sift: true
+  use_orb: true
+  orb_features: 5000
+  sift_features: 3500
+  ratio_test: 0.75
+  min_matches: 10
+  min_inliers: 8
+  ransac_reproj_threshold: 4.0
+  max_instances_per_variant: 15
+  rotations: [0, 90, 180, 270]
+  scales: [0.75, 1.0, 1.25]
+
+deep:
+  enabled: true
+  use_dinov2: true
+  allow_dinov2_download: false
+  model_name: dinov2_vits14
+  device: auto
+  input_size: 224
+  batch_size: 16
+  max_scan_side: 1400
+  tile_size: 640
+  tile_overlap_ratio: 0.35
+  step_ratio: 0.25
+  min_window: 24
+  max_windows: 2500
+  similarity_threshold: 0.82
+  scales: [0.65, 0.8, 1.0, 1.2, 1.45]
+  rotations: [0, 90, 180, 270]
+  heatmap_smoothing_sigma: 1.2
+
+postprocess:
+  score_threshold: 0.45
+  nms_iou_threshold: 0.25
+  duplicate_iou_threshold: 0.65
+  max_detections: 100
+  min_box_area: 64
+
+inference:
+  enable_classical: true
+  enable_deep: true
+  timeout_seconds: 60
+  cache_embeddings: true
+  log_level: INFO
