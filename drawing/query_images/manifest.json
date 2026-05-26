@@ -1,0 +1,70 @@
+{
+  "query_images": [
+    {
+      "source_drawing": "drawing/1.png",
+      "query_image": "drawing/query_images/drawing_01_bridge_rectifier_query.png",
+      "label": "bridge_rectifier",
+      "crop_box_xyxy": [
+        380,
+        205,
+        510,
+        340
+      ]
+    },
+    {
+      "source_drawing": "drawing/2.png",
+      "query_image": "drawing/query_images/drawing_02_xor_gate_query.png",
+      "label": "xor_gate",
+      "crop_box_xyxy": [
+        510,
+        885,
+        565,
+        960
+      ]
+    },
+    {
+      "source_drawing": "drawing/3.png",
+      "query_image": "drawing/query_images/drawing_03_fuse_query.png",
+      "label": "fuse",
+      "crop_box_xyxy": [
+        125,
+        285,
+        190,
+        375
+      ]
+    },
+    {
+      "source_drawing": "drawing/4.png",
+      "query_image": "drawing/query_images/drawing_04_opamp_query.png",
+      "label": "op_amp",
+      "crop_box_xyxy": [
+        725,
+        80,
+        905,
+        215
+      ]
+    },
+    {
+      "source_drawing": "drawing/5.png",
+      "query_image": "drawing/query_images/drawing_05_push_button_query.png",
+      "label": "push_button",
+      "crop_box_xyxy": [
+        505,
+        520,
+        600,
+        555
+      ]
+    },
+    {
+      "source_drawing": "drawing/6.png",
+      "query_image": "drawing/query_images/drawing_06_led_query.png",
+      "label": "led",
+      "crop_box_xyxy": [
+        270,
+        890,
+        345,
+        960
+      ]
+    }
+  ]
+}
