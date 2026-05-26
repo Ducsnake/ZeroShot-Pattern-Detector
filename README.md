@@ -1,1 +1,0 @@
-# ZeroShot-Pattern-Detector
