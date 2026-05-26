@@ -1,0 +1,50 @@
+{
+  "pattern": "examples/pattern_flange.png",
+  "drawing": "examples/drawing_flange.png",
+  "detections": [
+    {
+      "id": 1,
+      "bbox": {
+        "x1": 110,
+        "y1": 95,
+        "x2": 222,
+        "y2": 207
+      },
+      "scale": 1.0,
+      "rotation": 0
+    },
+    {
+      "id": 2,
+      "bbox": {
+        "x1": 360,
+        "y1": 105,
+        "x2": 494,
+        "y2": 239
+      },
+      "scale": 1.2,
+      "rotation": 90
+    },
+    {
+      "id": 3,
+      "bbox": {
+        "x1": 165,
+        "y1": 365,
+        "x2": 257,
+        "y2": 457
+      },
+      "scale": 0.82,
+      "rotation": 180
+    },
+    {
+      "id": 4,
+      "bbox": {
+        "x1": 565,
+        "y1": 330,
+        "x2": 716,
+        "y2": 481
+      },
+      "scale": 1.35,
+      "rotation": 270
+    }
+  ]
+}

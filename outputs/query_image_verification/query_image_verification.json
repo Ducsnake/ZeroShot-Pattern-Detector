@@ -1,0 +1,142 @@
+{
+  "cases": [
+    {
+      "query_image": "drawing/query_images/drawing_01_bridge_rectifier_query.png",
+      "drawing": "drawing/1.png",
+      "num_detections": 2,
+      "scores": [
+        1.0,
+        0.736
+      ],
+      "sources": [
+        "classical-orb+classical-sift+template-ncc",
+        "template-ncc"
+      ],
+      "rendered": "outputs/query_image_verification/verify_1_drawing_01_bridge_rectifier_query.png",
+      "timings": {
+        "preprocess_seconds": 0.19128320000163512,
+        "classical_seconds": 2.3670796000005794,
+        "template_seconds": 1.0660963999980595,
+        "deep_seconds": 0.0,
+        "postprocess_seconds": 0.0006006000003253575,
+        "total_seconds": 3.667320500000642
+      }
+    },
+    {
+      "query_image": "drawing/query_images/drawing_02_xor_gate_query.png",
+      "drawing": "drawing/2.png",
+      "num_detections": 1,
+      "scores": [
+        0.9133
+      ],
+      "sources": [
+        "template-ncc"
+      ],
+      "rendered": "outputs/query_image_verification/verify_2_drawing_02_xor_gate_query.png",
+      "timings": {
+        "preprocess_seconds": 0.177579400002287,
+        "classical_seconds": 0.5375597000020207,
+        "template_seconds": 1.050342600003205,
+        "deep_seconds": 0.0,
+        "postprocess_seconds": 7.229999755509198e-05,
+        "total_seconds": 1.8095987000015157
+      }
+    },
+    {
+      "query_image": "drawing/query_images/drawing_03_fuse_query.png",
+      "drawing": "drawing/3.png",
+      "num_detections": 3,
+      "scores": [
+        0.9416,
+        0.8969,
+        0.8802
+      ],
+      "sources": [
+        "template-ncc",
+        "template-ncc",
+        "template-ncc"
+      ],
+      "rendered": "outputs/query_image_verification/verify_3_drawing_03_fuse_query.png",
+      "timings": {
+        "preprocess_seconds": 0.11844919999930426,
+        "classical_seconds": 0.2555002000008244,
+        "template_seconds": 0.4846749999996973,
+        "deep_seconds": 0.0,
+        "postprocess_seconds": 0.0003152999997837469,
+        "total_seconds": 0.9059080000006361
+      }
+    },
+    {
+      "query_image": "drawing/query_images/drawing_04_opamp_query.png",
+      "drawing": "drawing/4.png",
+      "num_detections": 1,
+      "scores": [
+        1.0
+      ],
+      "sources": [
+        "classical-orb+classical-sift+template-ncc"
+      ],
+      "rendered": "outputs/query_image_verification/verify_4_drawing_04_opamp_query.png",
+      "timings": {
+        "preprocess_seconds": 0.19413150000036694,
+        "classical_seconds": 0.762462399998185,
+        "template_seconds": 0.9481383999991522,
+        "deep_seconds": 0.0,
+        "postprocess_seconds": 0.00112269999954151,
+        "total_seconds": 1.9527871999998752
+      }
+    },
+    {
+      "query_image": "drawing/query_images/drawing_05_push_button_query.png",
+      "drawing": "drawing/5.png",
+      "num_detections": 2,
+      "scores": [
+        0.9101,
+        0.7602
+      ],
+      "sources": [
+        "template-ncc",
+        "template-ncc"
+      ],
+      "rendered": "outputs/query_image_verification/verify_5_drawing_05_push_button_query.png",
+      "timings": {
+        "preprocess_seconds": 0.17102439999871422,
+        "classical_seconds": 0.5475350999986404,
+        "template_seconds": 1.168927700000495,
+        "deep_seconds": 0.0,
+        "postprocess_seconds": 0.0001260999997612089,
+        "total_seconds": 1.9292977000004612
+      }
+    },
+    {
+      "query_image": "drawing/query_images/drawing_06_led_query.png",
+      "drawing": "drawing/6.png",
+      "num_detections": 6,
+      "scores": [
+        1.0,
+        0.7385,
+        0.737,
+        0.7206,
+        0.7197,
+        0.6905
+      ],
+      "sources": [
+        "classical-orb+classical-sift+template-ncc",
+        "template-ncc",
+        "template-ncc",
+        "template-ncc",
+        "template-ncc",
+        "classical-sift"
+      ],
+      "rendered": "outputs/query_image_verification/verify_6_drawing_06_led_query.png",
+      "timings": {
+        "preprocess_seconds": 0.18694840000171098,
+        "classical_seconds": 0.554098000000522,
+        "template_seconds": 1.3098785000001953,
+        "deep_seconds": 0.0,
+        "postprocess_seconds": 0.0004284000024199486,
+        "total_seconds": 2.093982899998082
+      }
+    }
+  ]
+}

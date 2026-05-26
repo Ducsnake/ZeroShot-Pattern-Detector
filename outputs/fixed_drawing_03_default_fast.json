@@ -1,0 +1,237 @@
+{
+  "detections": [
+    {
+      "bbox": {
+        "x1": 147.0,
+        "y1": 286.4387512207031,
+        "x2": 170.0,
+        "y2": 376.4387512207031,
+        "width": 23.0,
+        "height": 90.0
+      },
+      "score": 0.9416159671612001,
+      "source": "template-ncc",
+      "label": "pattern",
+      "metadata": {
+        "merged_count": 2,
+        "sources": [
+          "template-ncc"
+        ],
+        "members": [
+          {
+            "bbox": {
+              "x1": 147.0,
+              "y1": 285.0,
+              "x2": 170.0,
+              "y2": 375.0,
+              "width": 23.0,
+              "height": 90.0
+            },
+            "score": 0.9316159671612001,
+            "source": "template-ncc",
+            "label": "pattern",
+            "metadata": {
+              "rotation": 0.0,
+              "scale": 1.0,
+              "ncc": 0.9234797954559326,
+              "foreground_f1": 0.9438202247191011,
+              "bbox_resized": {
+                "x1": 147.0,
+                "y1": 285.0,
+                "x2": 170.0,
+                "y2": 375.0,
+                "width": 23.0,
+                "height": 90.0
+              }
+            }
+          },
+          {
+            "bbox": {
+              "x1": 147.0,
+              "y1": 288.0,
+              "x2": 170.0,
+              "y2": 378.0,
+              "width": 23.0,
+              "height": 90.0
+            },
+            "score": 0.8585047638483472,
+            "source": "template-ncc",
+            "label": "pattern",
+            "metadata": {
+              "rotation": 180.0,
+              "scale": 1.0,
+              "ncc": 0.8397329449653625,
+              "foreground_f1": 0.8866624921728241,
+              "bbox_resized": {
+                "x1": 147.0,
+                "y1": 288.0,
+                "x2": 170.0,
+                "y2": 378.0,
+                "width": 23.0,
+                "height": 90.0
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "bbox": {
+        "x1": 202.50527954101562,
+        "y1": 286.4842224121094,
+        "x2": 225.50526428222656,
+        "y2": 376.4842224121094,
+        "width": 22.999984741210938,
+        "height": 90.0
+      },
+      "score": 0.8969200765196956,
+      "source": "template-ncc",
+      "label": "pattern",
+      "metadata": {
+        "merged_count": 2,
+        "sources": [
+          "template-ncc"
+        ],
+        "members": [
+          {
+            "bbox": {
+              "x1": 203.0,
+              "y1": 285.0,
+              "x2": 226.0,
+              "y2": 375.0,
+              "width": 23.0,
+              "height": 90.0
+            },
+            "score": 0.8869200765196956,
+            "source": "template-ncc",
+            "label": "pattern",
+            "metadata": {
+              "rotation": 0.0,
+              "scale": 1.0,
+              "ncc": 0.8712349534034729,
+              "foreground_f1": 0.9104477611940298,
+              "bbox_resized": {
+                "x1": 203.0,
+                "y1": 285.0,
+                "x2": 226.0,
+                "y2": 375.0,
+                "width": 23.0,
+                "height": 90.0
+              }
+            }
+          },
+          {
+            "bbox": {
+              "x1": 202.0,
+              "y1": 288.0,
+              "x2": 225.0,
+              "y2": 378.0,
+              "width": 23.0,
+              "height": 90.0
+            },
+            "score": 0.8684462735374794,
+            "source": "template-ncc",
+            "label": "pattern",
+            "metadata": {
+              "rotation": 180.0,
+              "scale": 1.0,
+              "ncc": 0.850196897983551,
+              "foreground_f1": 0.8958203368683718,
+              "bbox_resized": {
+                "x1": 202.0,
+                "y1": 288.0,
+                "x2": 225.0,
+                "y2": 378.0,
+                "width": 23.0,
+                "height": 90.0
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "bbox": {
+        "x1": 258.0,
+        "y1": 286.5210876464844,
+        "x2": 281.0,
+        "y2": 376.5211181640625,
+        "width": 23.0,
+        "height": 90.00003051757812
+      },
+      "score": 0.8801869946798094,
+      "source": "template-ncc",
+      "label": "pattern",
+      "metadata": {
+        "merged_count": 2,
+        "sources": [
+          "template-ncc"
+        ],
+        "members": [
+          {
+            "bbox": {
+              "x1": 258.0,
+              "y1": 288.0,
+              "x2": 281.0,
+              "y2": 378.0,
+              "width": 23.0,
+              "height": 90.0
+            },
+            "score": 0.8701869946798094,
+            "source": "template-ncc",
+            "label": "pattern",
+            "metadata": {
+              "rotation": 180.0,
+              "scale": 1.0,
+              "ncc": 0.8529919385910034,
+              "foreground_f1": 0.8959795788130184,
+              "bbox_resized": {
+                "x1": 258.0,
+                "y1": 288.0,
+                "x2": 281.0,
+                "y2": 378.0,
+                "width": 23.0,
+                "height": 90.0
+              }
+            }
+          },
+          {
+            "bbox": {
+              "x1": 258.0,
+              "y1": 285.0,
+              "x2": 281.0,
+              "y2": 375.0,
+              "width": 23.0,
+              "height": 90.0
+            },
+            "score": 0.8460411972394064,
+            "source": "template-ncc",
+            "label": "pattern",
+            "metadata": {
+              "rotation": 0.0,
+              "scale": 1.0,
+              "ncc": 0.8250951170921326,
+              "foreground_f1": 0.8774603174603174,
+              "bbox_resized": {
+                "x1": 258.0,
+                "y1": 285.0,
+                "x2": 281.0,
+                "y2": 375.0,
+                "width": 23.0,
+                "height": 90.0
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "timings": {
+    "preprocess_seconds": 0.13065350000033504,
+    "classical_seconds": 3.612728200001584,
+    "template_seconds": 0.49283269999796175,
+    "deep_seconds": 0.0,
+    "postprocess_seconds": 0.00031429999944521114,
+    "total_seconds": 4.288440599997557
+  }
+}

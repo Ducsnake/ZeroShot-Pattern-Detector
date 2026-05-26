@@ -1,0 +1,10 @@
+{
+  "detections": [],
+  "timings": {
+    "preprocess_seconds": 0.19270229999892763,
+    "classical_seconds": 4.579167399999278,
+    "deep_seconds": 18.910912900002586,
+    "postprocess_seconds": 6.89999978931155e-05,
+    "total_seconds": 23.73301849999916
+  }
+}
